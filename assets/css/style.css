@@ -10,7 +10,7 @@ header {
 }
 
 header h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: slategrey;
 }
 
@@ -23,11 +23,12 @@ header nav ul {
 }
 header nav ul li {
     margin: 25px;
+    font-size: 22px;
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: navy;
+    color: crimson;
 }
 
 .hero {
@@ -52,6 +53,7 @@ header nav ul li a {
 
 .flex-row h2{
     color:crimson;
+    font-size: 32px;
 }
 
 .work {
@@ -74,6 +76,13 @@ header nav ul li a {
     font-size: 30px;
 }
 
+.card_lg {
+    background-image:url(../images/my-work-run.jpg)
+}
+
+#horiseon {
+    background-image:url(../images/my-work-seo.jpg)
+}
 .res-link {
     text-decoration: none;
     color: crimson;
@@ -84,6 +93,7 @@ header nav ul li a {
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    font-size: 22px;
 }
 
 .contact-links ul li a {
