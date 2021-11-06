@@ -11,7 +11,8 @@ header {
 
 header h1 {
     font-size: 40px;
-    color: slategrey;
+    color: rgb(158, 17, 31);
+    margin: 10px;
 }
 
 header nav ul {
@@ -20,6 +21,7 @@ header nav ul {
     flex-wrap: wrap;
     list-style: none;
     align-items: center;
+    margin: 0px;
 }
 header nav ul li {
     margin: 25px;
@@ -28,7 +30,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: crimson;
+    color: rgb(158, 17, 31);
 }
 
 .hero {
@@ -36,7 +38,6 @@ header nav ul li a {
     background-size: cover;
     background-position: 80%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     height: 300px;
 }
@@ -49,6 +50,7 @@ header nav ul li a {
 .flex-row {
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 .flex-row h2{
@@ -80,7 +82,7 @@ header nav ul li a {
     background-image:url(../images/my-work-run.jpg)
 }
 
-#horiseon {
+.card_sm1 {
     background-image:url(../images/my-work-seo.jpg)
 }
 .res-link {
