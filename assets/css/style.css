@@ -11,8 +11,12 @@ header h1 {
 header nav ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
     align-items: center;
+}
+header nav ul li {
+    margin: 25px;
 }
 
 header nav ul li a {
@@ -20,3 +24,17 @@ header nav ul li a {
     color: navy;
 }
 
+.hero {
+    background-image: url("../images/rr-hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.portrait {
+    display: flex;
+    height: 300px;
+}
