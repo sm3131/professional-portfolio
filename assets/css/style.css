@@ -1,6 +1,12 @@
 header {
     display: flex;
     justify-content: space-between;
+    background-image: url("../images/rr-hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 header h1 {
