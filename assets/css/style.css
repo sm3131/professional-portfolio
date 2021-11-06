@@ -54,6 +54,20 @@ header nav ul li a {
     color:crimson;
 }
 
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid silver;
+    padding: 50px;
+    margin: 10px;
+    height: 150px;
+    width: 190px;
+}
+
 .res-link {
     text-decoration: none;
     color: crimson;
