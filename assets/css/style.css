@@ -7,6 +7,7 @@ header {
     top: 0;
     position: -webkit-sticky;
     position: sticky;
+    z-index: 999;
 }
 
 header h1 {
@@ -79,12 +80,38 @@ header nav ul li a {
 }
 
 .card_lg {
-    background-image:url(../images/my-work-run.jpg)
+    background-color: none;
+}
+
+.card_lg img{
+    position: relative;
+    left: -50px;
+    top: -49px;
+    height: 248px;
+    width: 290px;
+}
+
+.run {
+    position: relative;
+    top: -142px;
+}
+
+.card_sm1 img {
+    position: relative;
+    top: -49px;
+    left: -49px;
+    height: 248px;
+    width: 288px;
 }
 
 .card_sm1 {
-    background-image:url(../images/my-work-seo.jpg)
 }
+
+.seo {
+    position: relative;
+    top: -142px;
+}
+
 .res-link {
     text-decoration: none;
     color: crimson;
