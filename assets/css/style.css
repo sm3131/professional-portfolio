@@ -44,3 +44,17 @@ header nav ul li a {
     display: flex;
     height: 300px;
 }
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-row h2{
+    color:crimson;
+}
+
+.res-link {
+    text-decoration: none;
+    color: crimson;
+}
