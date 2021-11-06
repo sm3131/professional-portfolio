@@ -72,3 +72,14 @@ header nav ul li a {
     text-decoration: none;
     color: crimson;
 }
+
+.contact-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+.contact-links ul li a {
+    text-decoration: none;
+}
