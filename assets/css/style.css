@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 35px;
+    color: slategrey;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: navy;
+}
+
