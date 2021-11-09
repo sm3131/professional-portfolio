@@ -51,12 +51,23 @@ header nav ul li a {
 .flex-row {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.flex-row2 {
+    padding: 2px;
+}
+
+.flex-row2 p {
+    font-size: 20px;
 }
 
 .flex-row h2{
-    color:crimson;
+    color:darkcyan;
     font-size: 32px;
+    border-style: outset;
+    border-color: turquoise;
 }
 
 .work {
@@ -72,6 +83,7 @@ header nav ul li a {
     height: 150px;
     width: 190px;
     background-color:darkgray;
+    border-radius: 10px;
 }
 
 .card h3 {
@@ -89,6 +101,7 @@ header nav ul li a {
     top: -49px;
     height: 248px;
     width: 290px;
+    border-radius: 10px;
 }
 
 .run {
@@ -102,6 +115,7 @@ header nav ul li a {
     left: -49px;
     height: 248px;
     width: 288px;
+    border-radius: 10px;
 }
 
 .card_sm1 {
@@ -114,7 +128,7 @@ header nav ul li a {
 
 .res-link {
     text-decoration: none;
-    color: crimson;
+    color: darkcyan;
 }
 
 .contact-links ul {
