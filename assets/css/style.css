@@ -1,9 +1,10 @@
+body {
+    background-color:whitesmoke;
+}
 header {
     display: flex;
     justify-content: space-between;
-    background-image: url("../images/rr-hero.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: wheat;
     top: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -74,14 +75,16 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
 }
 
 .card {
     border: 2px solid black;
     padding: 50px;
     margin: 10px;
-    height: 150px;
-    width: 190px;
+    height: 200px;
+    width: 475px;
     background-color:darkgray;
     border-radius: 10px;
 }
@@ -93,16 +96,16 @@ header nav ul li a {
 
 .card_lg {
     background-color: none;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 800px;
 }
 
 .card_lg img{
     position: relative;
     left: -50px;
     top: -49px;
-    height: 398px;
-    width: 399px;
+    height: 348px;
+    width: 902px;
     border-radius: 10px;
 }
 
@@ -116,29 +119,29 @@ header nav ul li a {
     position: relative;
     top: -49px;
     left: -49px;
-    height: 248px;
-    width: 288px;
+    height: 298px;
+    width: 574px;
     border-radius: 10px;
 }
 
 .seo {
     position: relative;
     top: -142px;
-    color:aqua;
+    color:deepskyblue;
 }
 
 .card_sm2 img {
     position: relative;
-    top: -182px;
+    top: -146px;
     left: -50px;
-    height: 250px;
-    width: 290px;
+    height: 300px;
+    width: 575px;
     border-radius: 10px;
 }
 
 .pass {
     position: relative;
-    top: 97px;
+    top: 182px;
     z-index: 20;
     color: white;
 }
