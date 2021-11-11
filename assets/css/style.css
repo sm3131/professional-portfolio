@@ -174,3 +174,57 @@ header nav ul li a {
     text-decoration: none;
 }
 /* Contact Me section styling end */
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 980px) {
+
+    .card_lg {
+        width: 650px;
+    }
+
+    .card_lg img {
+        width: 751px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 70px;
+    }
+
+    header h1 {
+        font-size: 34px;
+        margin-right: 24px;
+    }
+    
+    header nav ul {
+        margin-left: -38px;
+    }
+
+    header nav ul li {
+        margin: 18px;
+    }
+
+    .card.card_lg {
+        width: 554px;
+    }
+
+    .card.card_lg img {
+        width: 655px;
+    }
+
+    .card {
+        width: 400px;
+    }
+
+    .card img {
+        width: 499px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+}
