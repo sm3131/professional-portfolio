@@ -1,6 +1,7 @@
 body {
     background-color:whitesmoke;
 }
+/* Header Styling Start */
 header {
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,9 @@ header nav ul li a {
     text-decoration: none;
     color: rgb(158, 17, 31);
 }
+/* Header Styling End */
 
+/* Hero Styling Start */
 .hero {
     background-image: url("../images/rr-hero.jpg");
     background-size: cover;
@@ -48,7 +51,9 @@ header nav ul li a {
     display: flex;
     height: 300px;
 }
+/* Hero Styling End */
 
+/* Section header/text flex styling start */
 .flex-row {
     display: flex;
     justify-content: center;
@@ -70,7 +75,9 @@ header nav ul li a {
     border-style: outset;
     border-color: turquoise;
 }
+/* Section header/text flex styling end */
 
+/* My Work section styling start */
 .work {
     display: flex;
     justify-content: space-between;
@@ -145,12 +152,16 @@ header nav ul li a {
     z-index: 20;
     color: white;
 }
+/* My Work section styling End */
 
+/* Resume section styling start */
 .res-link {
     text-decoration: none;
     color: darkcyan;
 }
+/* Resume section styling end */
 
+/* Contact Me section styling start */
 .contact-links ul {
     display: flex;
     justify-content: space-between;
@@ -162,3 +173,4 @@ header nav ul li a {
 .contact-links ul li a {
     text-decoration: none;
 }
+/* Contact Me section styling end */
