@@ -125,10 +125,10 @@ header nav ul li a {
 .card_sm1 img {
     position: relative;
     top: -49px;
-    left: -49px;
+    left: -50px;
     height: 298px;
-    width: 574px;
-    border-radius: 10px;
+    width: 575px;
+    border-radius: 6px;
 }
 
 .seo {
@@ -143,7 +143,7 @@ header nav ul li a {
     left: -50px;
     height: 300px;
     width: 575px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .pass {
@@ -152,12 +152,38 @@ header nav ul li a {
     z-index: 20;
     color: white;
 }
+
+.card_sm3 img {
+    position: relative;
+    top: -145px;
+    left: -49px;
+    width: 573px;
+    height: 298px;
+    border-radius: 6px;
+}
+
+.robo h3 {
+    position: relative;
+    bottom: -179px;
+    z-index: 999;
+}
 /* My Work section styling End */
 
 /* Resume section styling start */
 .res-link {
     text-decoration: none;
     color: darkcyan;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+        height: 75px;
+        width: 350px;
+        font-size: 30px;
 }
 /* Resume section styling end */
 
@@ -168,10 +194,21 @@ header nav ul li a {
     list-style: none;
     text-align: center;
     font-size: 22px;
+    padding: 0px 60px;
 }
 
 .contact-links ul li a {
     text-decoration: none;
+}
+
+li.phone {
+    position: relative;
+    right: 45px;
+}
+
+li.git {
+    position: relative;
+    right: 42px;
 }
 /* Contact Me section styling end */
 
@@ -186,7 +223,6 @@ header nav ul li a {
         width: 751px;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     header {
@@ -226,5 +262,54 @@ header nav ul li a {
 
 
 @media screen and (max-width: 575px) {
+
+    header {
+        height: 58px;
+    }
+    header h1{
+        font-size: 24px;
+        position: relative;
+        top: 8px;
+    }
+
+    header nav ul {
+        margin-left: -74px;
+        justify-content: none;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .hero {
+        height: 220px;
+    }
+
+    .portrait img {
+        height: 220px;
+    }
+
+    .flex-row {
+        padding-top: 35px;
+    }
+    .flex-row.flex-row2 {
+        padding-top: 0px;
+    }
+
+    .card {
+        width: 310px;
+    }
+
+    .card img {
+        width:410px;
+    }
+
+    .card.card_lg {
+        width: 430px;
+    }
+
+    .card.card_lg img {
+        width: 531px;
+    }
 
 }
