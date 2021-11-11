@@ -67,6 +67,9 @@ header nav ul li a {
 
 .flex-row2 p {
     font-size: 20px;
+    border: 2px solid turquoise;
+    padding: 10px;
+    background-color:papayawhip;
 }
 
 .flex-row h2{
