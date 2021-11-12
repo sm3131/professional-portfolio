@@ -35,6 +35,13 @@ header nav ul li a {
     text-decoration: none;
     color: rgb(158, 17, 31);
 }
+
+header nav ul li a:hover {
+    background:sienna;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
 /* Header Styling End */
 
 /* Hero Styling Start */
@@ -168,7 +175,7 @@ header nav ul li a {
 .robo {
     position: relative;
     bottom: -179px;
-    z-index: 999;
+    z-index: 20;
     color: steelblue;
 }
 
@@ -183,7 +190,7 @@ header nav ul li a {
 
 .quiz {
     position: relative;
-    z-index: 999;
+    z-index: 20;
     top: 168px;
     color: yellowgreen;
 }
@@ -199,7 +206,7 @@ header nav ul li a {
 
 .work-day {
     position: relative;
-    z-index: 999;
+    z-index: 20;
     top: 162px;
     color: violet;
 }
