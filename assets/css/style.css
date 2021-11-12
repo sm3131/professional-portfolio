@@ -213,22 +213,23 @@ header nav ul li a:hover {
 /* My Work section styling End */
 
 /* Resume section styling start */
-.res-link {
-    text-decoration: none;
-    color: darkcyan;
-}
-
-form {
+.res form {
     display: flex;
     justify-content: center;
 }
 
-button {
+.res button {
         height: 75px;
         width: 350px;
         font-size: 30px;
         background-color: turquoise;
+        color: white;
         border-radius: 15px;
+}
+
+.res button:hover {
+    background:slateblue;
+    color:springgreen;
 }
 /* Resume section styling end */
 
