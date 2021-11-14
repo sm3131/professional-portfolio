@@ -30,14 +30,16 @@ Below are several screenshots providing an overview of the professional portfoli
 
 # Portfolio Link
 The link to my professional portfolio is:
+<br>
+https://sm3131.github.io/professional-portfolio/
 
 # Credit
 Besides the portrait images, the images used on this webpage were pulled from google images. 
 - The hero image is a landscape of red rock national park credited to: https://www.explore-share.com/trip/rock-climbing-half-day-program-red-rock-nevada/
 - The RUN logo image can be credited to: https://www.shutterstock.com/search/running+logo
 - The SEO logo image can be credited to: https://www.vecteezy.com/free-vector/logo-seo
-- The lock image can be credited to:
-- The robot/gladiators image can be credited to:
+- The lock image can be credited to: https://www.vectorstock.com/royalty-free-vector/blue-lock-icon-with-protection-key-password-blocke-vector-4059388
+- The robot/gladiators image can be credited to: https://courses.bootcampspot.com/courses/969
 - The institute of coding image can be credited to: https://wearetechwomen.com/join-the-women-in-tech-revolution/institute-of-coding-logo-featured/
 - The weekly calender image can be credited to: https://www.picmonkey.com/templates/calendar/daily/daily-work-schedule-3300x2550
 
