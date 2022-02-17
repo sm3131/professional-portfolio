@@ -1,0 +1,86 @@
+.header {
+    background-color:darkblue;
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head1 {
+    color:tan;
+}
+
+a {
+    text-decoration:none;
+    color:tan;
+    font-size:18px;
+}
+
+a:hover {
+    color:white;
+}
+
+.rock-div {
+    padding-left: 0;
+}
+
+.red-rock{
+    width:100%;
+    height:275px;
+    object-fit:cover;
+}
+
+.portrait-div {
+    padding-right: 0;
+}
+
+.portrait {
+    width:100%;
+    height:275px;
+    object-fit:cover;
+}
+
+#about-me {
+    background-color: tan;
+}
+
+.head-about{
+ color:darkblue;
+}
+
+.about-p {
+    color:darkblue;
+}
+
+.foot {
+    background-color: darkblue;
+    color:tan;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width: 576px) {
+    .red-rock{
+        display:none;
+    }
+    .portrait {
+        width:100%;
+        height:240px;
+        object-fit:cover;
+    }
+
+    .portrait-div {
+        padding-right: calc(var(--bs-gutter-x) * .5);    }
+}
+
+@media (max-width: 768px) { 
+    .red-rock{
+        width:100%;
+        height:250px;
+        object-fit:cover;
+    }
+
+    .portrait {
+        width:100%;
+        height:250px;
+        object-fit:cover;
+    }
+}
