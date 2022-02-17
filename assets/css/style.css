@@ -115,6 +115,8 @@ header nav ul li a:hover {
     background-color: none;
     height: 250px;
     width: 719px;
+    padding: 50px;
+    margin: 10px;
 }
 
 .card_lg img{
