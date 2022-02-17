@@ -9,6 +9,10 @@
     color:tan;
 }
 
+.head1:hover {
+    color:white;
+}
+
 a {
     text-decoration:none;
     color:tan;
